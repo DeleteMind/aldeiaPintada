@@ -1,0 +1,93 @@
+ body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0; 
+    background: #f5ecd5; /* dá um bege claro ao corpo*/
+}
+
+header {
+    background-color: white;
+    height: 110px;
+    display: flex;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    justify-content: space-between;
+    
+}
+
+
+.logo a {   /*codigo para o meu logo*/
+    background-image: url(/imagens/logo.png);
+    margin-right: auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    width: 150px;
+    height: 130px;
+    text-indent: -99999px;
+      
+}
+
+nav ul {   /*Aqui defino como são apresentados os meus links*/
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+
+
+nav ul li a { /* defini o tipo de letra, cor ...*/
+    color:#333;
+    font-weight: bold;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff6f61;
+}
+
+a:active{
+    color: rgb(22, 165, 141);
+}
+
+/* MAIN */
+
+.hero {
+    background: color #f5ecd5; 
+    color: #333;
+    font-size: 1.8em;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+
+
+/* FOOTER */
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+footer .sociais a {
+    color: #ff6f61;
+    text-decoration: none;
+    padding: 0 10px;
+    
+}
