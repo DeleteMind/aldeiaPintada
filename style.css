@@ -1,5 +1,12 @@
- body {
-    font-family: 'Comic Sans MS', cursive, sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+body {
+    font-family:  Helvetica Neue, Helvetica, Arial, sans-serif, 'Comic Sans MS', cursive, sans-serif;
     margin: 0;
     padding: 0; 
     background: #f5ecd5; /* dá um bege claro ao corpo*/
@@ -7,7 +14,7 @@
 
 header {
     background-color: white;
-    height: 110px;
+    height: 90px;
     display: flex;
     padding: 15px 30px;
     text-transform: uppercase;
@@ -17,7 +24,6 @@ header {
 
 
 .logo a {   /*codigo para o meu logo*/
-    background-image: url(/imagens/logo.png);
     margin-right: auto;
     background-size: contain;
     background-repeat: no-repeat;
